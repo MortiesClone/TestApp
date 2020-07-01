@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AUTH_CALLBACK</key>
+	<string>$(AUTH_CALLBACK)</string>
+	<key>RESPONSE_TYPE</key>
+	<string>$(RESPONSE_TYPE)</string>
+	<key>ACCESS_TOKEN_URL</key>
+	<string>$(ACCESS_TOKEN_URL)</string>
+	<key>AUTHORIZE_URL</key>
+	<string>$(AUTHORIZE_URL)</string>
+	<key>CONSUMER_SECRET</key>
+	<string>$(CONSUMER_SECRET)</string>
+	<key>CONSUMER_KEY</key>
+	<string>$(CONSUMER_KEY)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -16,6 +28,17 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>oauth-swift</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
