@@ -1,0 +1,17 @@
+//
+//  DebugConfiguration.xcconfig
+//  TestApp
+//
+//  Created by Vadim on 01.07.2020.
+//  Copyright © 2020 Vadim. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CONSUMER_KEY=ios_test
+CONSUMER_SECRET=ddaik1i2140
+AUTHORIZE_URL=https:/$()/example.com/oauth/authorize
+ACCESS_TOKEN_URL=https:/$()/example.com/oauth/token
+RESPONSE_TYPE=code
+AUTH_CALLBACK=oauth-swift:/$()/oauth-callback/example
